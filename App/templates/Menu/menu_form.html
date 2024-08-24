@@ -14,7 +14,7 @@
                 {% csrf_token %}
                 
                 <div id = "inputnome" class="form-group">
-                    {{ form.nome.label_tag }}
+                    <label for="{{ form.nome.id_for_label }}">Primeiro nome:</label>
                     {{ form.nome }}
                 </div>
                 
@@ -34,12 +34,12 @@
                 </div>
                 
                 <div class="mt-4">
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
                 </div>
             </form>
             
             <div class="mt-3">
-                <a href="{% url 'menu_list' %}">Back to List</a>
+                <a href="{% url 'menu_list' %}">Voltar à lista</a>
             </div>
         </div>
     </div>

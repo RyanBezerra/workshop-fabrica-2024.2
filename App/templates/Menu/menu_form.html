@@ -5,11 +5,12 @@
 </head>
 <body>
     <h1>Menu Form</h1>
-    <form method="post" id="main-form">
+    <form method="post">
         {% csrf_token %}
-        {{ form.as_p }}
+        {{ form.as_p }}  <!-- O campo de localidade será exibido aqui automaticamente -->
         <button type="submit">Save</button>
     </form>
     <a href="{% url 'menu_list' %}">Back to List</a>
 </body>
 </html>
+

@@ -1,10 +1,8 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from .models import Menu
 from .forms import MenuForm
-
 import requests
 from django.http import JsonResponse
-import json
 
 def menu_list(request):
     menus = Menu.objects.all()

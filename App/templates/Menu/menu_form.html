@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu Form</title>
+</head>
+<body>
+    <h1>Menu Form</h1>
+    <form method="post" id="main-form">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Save</button>
+    </form>
+    <a href="{% url 'menu_list' %}">Back to List</a>
+</body>
+</html>

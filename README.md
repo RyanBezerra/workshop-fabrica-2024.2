@@ -85,14 +85,14 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-<!--[![image](https://github.com/user-attachments/assets/9e2800a8-1676-4c1b-a64e-2b3ed1a09565
-)](https://portfolio-git-main-ryans-projects-da8a15f6.vercel.app)-->
+[![image](https://github.com/user-attachments/assets/93952ccb-5635-4cf2-8572-a2f5dc989aec)](https://portfolio-git-main-ryans-projects-da8a15f6.vercel.app)
 
-Essa foi a API que desenvolvi para o desafio do workshop back-end.
+Esse foi um CRUD que desenvolvi para o desafio do workshop back-end 2024.2.
 
 Pontos importantes:
 
-* 
+* O banco de dados está hospedado no railway
+* O html está hospedado na vercel
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>
 
@@ -100,19 +100,20 @@ Pontos importantes:
 
 ### Tecnologias Utilizadas
 
-Nesta seção estão as tecnologias que usei para desenvolver a API.
+Nesta seção estão as tecnologias que usei para desenvolver o CRUD.
 
 * [Python](https://www.python.org)
-* [Django REST framework](https://www.django-rest-framework.org)
+* [Django](https://www.djangoproject.com)
 * [Vercel](https://vercel.com)
 * [Git](https://git-scm.com)
+* [Bootstrap](https://getbootstrap.com)
 
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>
 
 ### Instalação e Execução
 
-Começe a instalação das depencias estando na pasta (\workshop-fabrica-2024.2):
+Começe a instalação das dependencias estando na pasta (\workshop-fabrica-2024.2):
 
 * Crie uma venv e ative ela:
   ```sh
@@ -132,15 +133,15 @@ Começe a instalação das depencias estando na pasta (\workshop-fabrica-2024.2)
   
 * Após ativar a venv, instale as dependencias:
   ```sh
+    cd..
+    ```
+  ```sh
+    cd..
+    ```
+  ```sh
   pip install -r requirements.txt
   ```
 * Com a venv ativada, retorne ao endereço principal do projeto, execute as migrações e dê runserver:
-  ```sh
-    cd..
-    ```
-  ```sh
-    cd..
-    ```
   ```sh
     py manage.py makemigrations
     ```
@@ -159,7 +160,7 @@ Começe a instalação das depencias estando na pasta (\workshop-fabrica-2024.2)
 <!-- USAGE EXAMPLES -->
 ## Uso
 
-Se você é um desenvolvedor e deseja utilizar meu projeto como um template para desenvolver a sua API, sinta-se à vontade.
+Se você é um desenvolvedor e deseja utilizar meu projeto como um modelo, sinta-se à vontade.
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>
 
@@ -168,8 +169,12 @@ Se você é um desenvolvedor e deseja utilizar meu projeto como um template para
 <!-- ROADMAP -->
 ## Planejamento
 
-- [x] Criar api com DjangoREST
-- [ ] Desafio resolvido
+- [x] Criar crud
+- [x] Vincular uma api externa
+- [x] Desafio resolvido
+- [x] Estilização
+- [x] Hospedagem do banco de dados
+- [x] Hospedagem do site
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>
 
@@ -178,7 +183,7 @@ Se você é um desenvolvedor e deseja utilizar meu projeto como um template para
 <!-- CONTRIBUTING -->
 ## Contribuição
 
-Se você tiver qualquer observação sobre a api ou sugestões de melhorias, ficarei feliz em ouvir sua opinião. Não hesite em me contatar — seu nome será devidamente reconhecido aqui!
+Se você tiver qualquer observação sobre o CRUD ou sugestões de melhorias, ficarei feliz em ouvir sua opinião. Não hesite em me contatar — seu nome será devidamente reconhecido aqui!
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>
 
@@ -209,7 +214,7 @@ Gmail - ryandonascimentobezerra@gmail.com
 Alguns recursos uteis que eu gostaria de agradecer
 
 * [Documentação do bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-* [Figma template portfólio](https://www.figma.com/design/JQBde0k47aMgwA1MzeOLwy/Portfolio-(Community)?node-id=0-1&t=1OxN6tJ80EGuMrlO-0)
+* [Railway](https://railway.app)
 * [Vercel para hospedagem gratuita](https://vercel.com)
 
 <p align="right">(<a href="#readme-top">Volte para o topo</a>)</p>

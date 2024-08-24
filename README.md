@@ -113,7 +113,7 @@ Nesta seção estão as tecnologias que usei para desenvolver o CRUD.
 
 ### Instalação e Execução
 
-Começe a instalação das depencias estando na pasta (\workshop-fabrica-2024.2):
+Começe a instalação das dependencias estando na pasta (\workshop-fabrica-2024.2):
 
 * Crie uma venv e ative ela:
   ```sh

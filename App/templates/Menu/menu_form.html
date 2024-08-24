@@ -11,27 +11,5 @@
         <button type="submit">Save</button>
     </form>
     <a href="{% url 'menu_list' %}">Back to List</a>
-
-    <script>
-        document.getElementById('check-name-button').onclick = async function() {
-            const nome = document.querySelector('input[name="nome"]').value;
-            if (!nome) {
-                alert('Please enter a name.');
-                return;
-            }
-
-            const response = await fetch("{% url 'check_name' %}", {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-CSRFToken': '{{ csrf_token }}'
-                },
-                body: JSON.stringify({ nome: nome })
-            });
-
-            const result = await response.json();
-            document.getElementById('name-check-result').innerText = JSON.stringify(result);
-        };
-    </script>
 </body>
 </html>

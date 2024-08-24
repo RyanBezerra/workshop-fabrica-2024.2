@@ -100,7 +100,7 @@ Pontos importantes:
 
 ### Tecnologias Utilizadas
 
-Nesta seção estão as tecnologias que usei para desenvolver a API.
+Nesta seção estão as tecnologias que usei para desenvolver o CRUD.
 
 * [Python](https://www.python.org)
 * [Django](https://www.djangoproject.com)

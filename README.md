@@ -85,7 +85,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-[![image](https://github.com/user-attachments/assets/93952ccb-5635-4cf2-8572-a2f5dc989aec)](https://portfolio-git-main-ryans-projects-da8a15f6.vercel.app)
+[![image](https://github.com/user-attachments/assets/93952ccb-5635-4cf2-8572-a2f5dc989aec)](https://workshop-fabrica-2024-2.vercel.app)
 
 Esse foi um CRUD que desenvolvi para o desafio do workshop back-end 2024.2.
 
